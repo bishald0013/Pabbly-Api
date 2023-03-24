@@ -2,7 +2,7 @@ import express from "express"
 import connectDB from "./config/config.js";
 import router from "./routes/router.js"
 
-const port = 5000;
+const port = 8000;
 const app = express()
 
 connectDB()

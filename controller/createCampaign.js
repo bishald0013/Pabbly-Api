@@ -1,5 +1,4 @@
 import CampaignModel from "../model/campaignModel.js"
-import PabblyCampaignModel from "../model/pabblyCampainModel.js"
 
 class CampaignController {
     static createCampaign = async (req, res) => {
